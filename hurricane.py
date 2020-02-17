@@ -20,7 +20,7 @@ def fetch_hurricane_lineup():
   old_bands = []
   while True:
     browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-    sleep(5)
+    sleep(10)
     bands = get_bands_from_page(browser.page_source)
     if len(old_bands) == len(bands):
       break
