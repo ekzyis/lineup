@@ -72,4 +72,5 @@ def fetch_lineups():
   write_bands(southside_bands, "southside_bands")
 
 if __name__ == "__main__":
+  fetch_lineups()
   evaluate()
