@@ -9,4 +9,4 @@ Compare lineup of festivals
 
 ### Running
 
-Run `fetch.py`
+Run `src/fetch.py`
